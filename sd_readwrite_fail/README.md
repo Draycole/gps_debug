@@ -20,3 +20,5 @@ I've attached a schematic diagram of my current setup.
 
 <img src="schematic.png" alt="current wiring" width="700" height="700"> 
 
+
+The `no-OS-FatFs-SD-SPI-RPi-Pico` subfolder was had sub file names too long to upload to github. you can verify it here [carlk3 sd card file allocation system](https://github.com/carlk3/no-OS-FatFS-SD-SPI-RPi-Pico)
