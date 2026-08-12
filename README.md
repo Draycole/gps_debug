@@ -1,2 +1,4 @@
-# gps_debug
-to communicate errors encountered in build
+# Debug & Troubleshooting Repo
+
+
+To effectively communicate errors encountered in build.
