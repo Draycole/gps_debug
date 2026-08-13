@@ -1,11 +1,11 @@
 /**
  * hw_config.c
  *
- * Tells the no-OS-FatFS-SD-SPI-RPi-Pico library which physical pins and
- * SPI peripheral your SD card is wired to. The library calls the functions
- * at the bottom of this file internally -- you don't call them yourself.
+ * tells the no-OS-FatFS-SD-SPI-RPi-Pico library which physical pins and
+ * SPI peripheral the SD card is wired to. The library calls the functions
+ * at the bottom of this file internally.
  *
- * Wiring (matches the earlier raw-SPI test):
+ * wiring (using pico's spi default 0):
  *   Pico GP16 -> SD MISO
  *   Pico GP17 -> SD CS
  *   Pico GP18 -> SD SCK
