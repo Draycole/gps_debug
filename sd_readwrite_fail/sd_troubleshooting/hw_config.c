@@ -14,30 +14,29 @@
 
 #include "hw_config.h"
 
-// Describes one SPI peripheral instance and which pins it uses
 static spi_t spis[] = {
     {
         .hw_inst = spi0,
         .miso_gpio = 16,
         .mosi_gpio = 19,
         .sck_gpio  = 18,
-        .baud_rate = 400 * 1000, // 12.5 MHz -- safe default, library
+        .baud_rate = 400 * 1000, // started at the 12.5 MHz default. reduced to 400Mhz still no change.
                                     // handles the slow-clock init internally
     }
 };
 
-// Describes one SD card: which SPI it's on, and which pin is its CS.
-// pcName "0:" is the drive letter you'll use in f_mount()/paths.
+// describes one SD card: which SPI it's on, and which pin is its CS.
+// pcName "0:" is the drive letter used in f_mount()/paths.
 static sd_card_t sd_cards[] = {
     {
         .pcName = "0:",
         .spi = &spis[0],
         .ss_gpio = 17,          // chip select pin
-        .use_card_detect = false // set true + add cd_gpio if your module has a CD pin wired
+        .use_card_detect = false // set true + add cd_gpio if the module has a CD pin wired (it doubt ours does but for good measure)
     }
 };
 
-// --- Boilerplate the library expects to find. Don't call these yourself. ---
+// --- boilerplate the library expects to find.---
 
 size_t spi_get_num(void) { return count_of(spis); }
 
