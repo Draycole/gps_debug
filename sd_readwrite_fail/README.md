@@ -34,3 +34,4 @@ Though, of course, modules designed for 3v3 could be better suited, especially t
 If the resistors are used as dividers, everything should work fine as long as the 74LVC125A's inputs are above 2V when high.
 ```
 
+<img width="546" height="670" alt="image" src="https://github.com/user-attachments/assets/937879bd-b21d-474f-a349-718287493ce9" />
