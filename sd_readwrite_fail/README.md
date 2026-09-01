@@ -23,4 +23,14 @@ I've attached a schematic diagram of my current setup.
 
 The `no-OS-FatFs-SD-SPI-RPi-Pico` subfolder was had sub file names too long to upload to github. you can verify it here [carlk3 sd card file allocation system](https://github.com/carlk3/no-OS-FatFS-SD-SPI-RPi-Pico)  
 
-Currently considering a solution highlighted in the carlk3's forum.  
+Currently considering a solution highlighted in the carlk3's (forum)[https://github.com/carlk3/no-OS-FatFS-SD-SPI-RPi-Pico/issues/83].  
+```
+Hi,
+
+I believe blue 5V Arduino SD modules work with 3v3 devices with a simple trick. These feature a 74LVC125A and an AMS1117 3v3 LDO. If you bypass the LDO (connect the 3v3 supply to the ldo's 3v3 pin), the module seems to work fine.
+
+Though, of course, modules designed for 3v3 could be better suited, especially those from known brands.
+
+If the resistors are used as dividers, everything should work fine as long as the 74LVC125A's inputs are above 2V when high.
+```
+
