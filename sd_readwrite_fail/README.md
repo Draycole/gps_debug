@@ -16,7 +16,7 @@ I've tried a handful of things. I took down one of my old projects so I could ve
 
 I tried powering the module from the pico's vbus(pin 40, 5V) in case 3v3 was not strong enough for the module but nothing was forthcoming.  
 
-I've attached a schematic diagram of my current setup.
+I've attached the schematic diagram of my current setup.
 
 <img src="schematic.png" alt="current wiring" width="700" height="700"> 
 
