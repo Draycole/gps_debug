@@ -1,4 +1,4 @@
 # Debug & Troubleshooting Repo
 
 
-Files enclosed and logs o effectively communicate errors encountered in build.
+Files enclosed and logs to effectively communicate errors encountered in build.
