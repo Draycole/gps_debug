@@ -2,4 +2,4 @@
 
 
 Files enclosed and logs to effectively communicate errors encountered in build.  
-Share build, logs 
+Share build, logs, builds an
