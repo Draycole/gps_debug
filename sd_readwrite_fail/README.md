@@ -2,7 +2,6 @@ I have been unable to verify that the raspberry pi pico can communicate with the
 
 I started off trying to write to a sector on the sd card (it won't come up as a file when you mout it on a computer but would indicate if writing was successful.) That failed so I wanted to write a viewable .csv file to the card, so i can verify.
 
-
 Continually ran into this error  
 
 ```
