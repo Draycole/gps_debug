@@ -13,7 +13,7 @@ Continually ran into this error
 
 I've tried a handful of things. I took down one of my old projects so I could verify the module itself was not the issue. My old module still gave the same bug. I reduced the spi clock in `hw_config` to 400kHz but still the same error.  
 
-I tried powering the module from the pico's vbus(pin 40, 5V) in case 3v3 was not strong enough for the module but nothing was forthcoming.  
+ 
 
 I've attached the schematic diagram of my current setup.
 
