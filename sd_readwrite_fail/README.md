@@ -35,4 +35,6 @@ If the resistors are used as dividers, everything should work fine as long as th
 
 <img width="546" height="670" alt="image" src="https://github.com/user-attachments/assets/937879bd-b21d-474f-a349-718287493ce9" />
 
-<!-- when to upload updates regarding this-->
+<!-- when to upload updates regarding this
+
+-- solutino found for-->
