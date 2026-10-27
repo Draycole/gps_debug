@@ -37,4 +37,4 @@ If the resistors are used as dividers, everything should work fine as long as th
 
 <!-- when to upload updates regarding this
 
--- solutino found for-->
+-- solutino found for the SD card --> need to -->
